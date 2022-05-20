@@ -1,0 +1,45 @@
+body{
+    margin: 0;
+    overflow: hidden;
+}
+
+/* .skills{ */
+    /* display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+} */
+.topnav{
+    background-color:goldenrod;
+    overflow: hidden;
+}
+#mysidenav a {
+    position: absolute;
+    right: -100px;
+    transition: 0.4s;
+    padding: 15px;
+    width: 100px;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 0,5px,5px,0;
+    color: white;
+}
+#mysidenav a:hover{
+    right: 0;
+}
+#home{
+    top: 10px;
+    background-color: red;
+}
+#hobbies{
+    top: 60px;
+    background-color: purple;
+}
+#education{
+    top: 105px;
+    background-color: blue;
+}
+#contact{
+    top: 154px;
+    background-color: orangered;
+}
