@@ -15,7 +15,7 @@ body{
 }
 #mysidenav a {
     position: absolute;
-    right: -100px;
+    left: -100px;
     transition: 0.4s;
     padding: 15px;
     width: 100px;
@@ -25,7 +25,7 @@ body{
     color: white;
 }
 #mysidenav a:hover{
-    right: 0;
+    left: 0;
 }
 #home{
     top: 10px;
